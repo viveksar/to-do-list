@@ -1,0 +1,73 @@
+#container{
+    background: rgb(245, 241, 245);
+    width:360px;
+  margin:100px auto;
+  box-shadow: 0 0 3px rgb(228, 187, 228);
+}
+.completed{
+    color:rgb(207, 167, 167);
+    text-decoration:line-through;
+}
+h1{
+ background-color: rgb(111, 111, 170);
+  margin:0;
+  padding:10px 20px;
+  font-size: 24px;
+  font-weight: normal;
+  color:white;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+li{
+  background:white;
+  height:40px;
+  line-height: 40px;
+
+}
+li:nth-child(2n){
+  background: rgb(245, 241, 245);
+}
+input{
+  background-color: cadetblue;
+  height:40px;
+  color:rgb(228, 98, 120);
+  width:360px;
+  line-height: 40px;
+  font-size: 20px;
+  padding:13px 13px 13px 20px;
+  box-sizing:border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+input:focus{
+  outline:none;
+  border:3px, solid, blue;
+ background:white; 
+}
+body{
+  background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fa-plus-circle{
+ float:right;
+}
+span{
+  background: red;
+  height:40px;
+  width:0px;
+  
+  margin-right:20px;
+  text-align: center;
+  color:white;
+  display:inline-block;
+ transition:0.2s linear;
+ opacity: 0;
+
+}
+li:hover span{
+  width: 40px;
+  opacity: 1;
+}
